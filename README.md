@@ -48,3 +48,18 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+
+npm install -g eas-cli
+eas login
+eas init
+eas build:configure
+
+add '/ios' and '/android' to .gitignore
+npx expo install --check
+
+eas build --profile development --platform android (will give QR code in few minutes)
+
+npx expo start --tunnel (scan previous QR code after running this)
